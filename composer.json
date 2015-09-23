@@ -1,0 +1,23 @@
+{
+  "name": "mackiavelly/yii2-juidatepicker",
+  "description": "Yii 2 jQuery UI Date Picker Widget",
+  "keywords": ["yii2", "jquery", "jquery-ui", "date", "picker"],
+  "homepage": "http://jqueryui.com/datepicker/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ksander	Zone",
+      "email": "ksander.zone@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-jui": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mackiavelly\\juidatepicker\\": ""
+    }
+  }
+}
