@@ -70,10 +70,10 @@ class JuiDatePicker extends InputWidget
         }
         if ($hasModel) {
             $output = Html::activeTextInput($this->model, $this->attribute, $this->options)
-            .((!$this->disableAlt) ? Html::activeHiddenInput($this->model, $this->attribute, $altOptions) : null);
+                .((!$this->disableAlt) ? Html::activeHiddenInput($this->model, $this->attribute, $altOptions) : null);
         } else {
             $output = Html::textInput($this->name, $this->value, $this->options)
-            .((!$this->disableAlt) ? Html::hiddenInput($this->name, $this->value, $altOptions) : null);
+                .((!$this->disableAlt) ? Html::hiddenInput($this->name, $this->value, $altOptions) : null);
         }
         $this->clientOptions = array_merge([
             'numberOfMonths' => $this->numberOfMonths,
